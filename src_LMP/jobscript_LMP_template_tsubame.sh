@@ -14,14 +14,14 @@ process_number=DDDDDD
 total_process=EEEEEE
 gpu_number=FFFFFF
 ##################################
-export LD_LIBRARY_PATH=/gs/bs/tga-tateyama/dan/0.software/0.MD/LAMMMPS_29Aug2024_cuda/build_v2:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=@@@@/LAMMMPS_29Aug2024_cuda/build_v2:$LD_LIBRARY_PATH
 . /etc/profile.d/modules.sh
 conda deactivate
 module purge
 module load  cuda/12.3.2  openmpi/5.0.2-gcc fftw/3.3.10-gcc  nvhpc/24.1  intel 
 GPU_ARCH=sm_90
 
-LMP_path=/gs/bs/tga-tateyama/dan/0.software/0.MD/LAMMMPS_29Aug2024_cuda/build_v2
+LMP_path=@@@@@@@/0.MD/LAMMMPS_29Aug2024_cuda/build_v2
 LMP_bin_type=lmp_mpi_cuda
 
 
