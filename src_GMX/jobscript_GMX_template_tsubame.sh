@@ -28,8 +28,8 @@ echo "***             define variables              ***"
 echo "*************************************************"
 set -v
 ### 変数定義
-BINGMXSERI="/gs/bs/tga-tateyama/dan/0.software/0.MD/gromacs_2024.4_cuda/build_serial/bin/gmx_serial"           # GROMACSシリアルバイナリ
-BINGMXMPI="/gs/bs/tga-tateyama/dan/0.software/0.MD/gromacs_2024.4_cuda/build_cuda/bin/gmx_mpi_cuda"            # GROMACS MPIバイナリ
+BINGMXSERI="@@@@@@/gromacs_2024.4_cuda/build_serial/bin/gmx_serial"           # GROMACSシリアルバイナリ
+BINGMXMPI="@@@@@@@/gromacs_2024.4_cuda/build_cuda/bin/gmx_mpi_cuda"            # GROMACS MPIバイナリ
 MPICOMM="mpirun -np EEEEEE "
 DO_MPI=no
 UNZIP_WORKDIR=no
