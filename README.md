@@ -1,0 +1,2 @@
+# HPCI_scaling_profiler
+このスクリプトは、LAMMPS（Large-scale Atomic/Molecular Massively Parallel Simulator）やGROMACSを異なる計算ノードとプロセス数の組み合わせで実行するためのジ ョブスクリプトを自動生成します。
