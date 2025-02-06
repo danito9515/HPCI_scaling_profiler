@@ -3,7 +3,7 @@
 # Tsubame specific-------------
 module load cuda/12.3.2 intel-mpi/2021.11  intel/2024.0.2
 module load openmpi/5.0.2-gcc fftw/3.3.10-gcc
-GMX_PATH="/gs/bs/tga-tateyama/dan/0.software/0.MD/gromacs_2024.4_cuda/build_serial/bin/gmx_serial"
+GMX_PATH="@@@@@@@@/gmx_serial"
 # Tsubame specific-------------
 
 # --- Function Definitions ---
